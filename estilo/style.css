@@ -7,7 +7,7 @@
 
 body{
     background-color: #ECF1F5;
-    position: relative;
+ 
 }
 
 header{
@@ -17,18 +17,46 @@ header{
 }
 
 .container{
-    max-width: 80%;
-    height: 500px;
+    max-width: 70%;
+    height: 800px;
     top: 40%;
-    left: 10%;
+    margin: auto;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.212);
+    background-color: rgb(250, 247, 247);
+    border-radius: 15px;
    
 }
 
-.container__menu{
-   position: absolute;
-   top: 40%;
-   left: 30%;
 
+.menu{
+    display: flex;
+    margin: auto;
+    max-width: 90%;
+    height: 3em;
+    background-color: #1D4059;
+
+}
+
+ a{
+    color: aliceblue;
+    padding: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.301);
+    border-right: 1px solid rgba(255, 255, 255, 0.301); ;
+}
+
+a:hover{
+    background-color: #ecf1f54b;
+}
+
+.titulo{
+    margin-top: 20px;
+    margin-left: 35px;
+    color: #134F88;
+    text-transform: uppercase;
+}
+
+.subtitulo{
+    margin-left: 35px;
+    color: #6AA7C9;
+    text-transform: uppercase;
 }
