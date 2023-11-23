@@ -17,14 +17,17 @@ header{
 }
 
 .container{
-    max-width: 70%;
-    height: 800px;
+    max-width: 69%;
+    height: 200px;
     top: 40%;
     margin: auto;
     position: relative;
-    background-color: rgb(250, 247, 247);
-    border-radius: 15px;
-   
+    background-color: #F4F8FB;
+    border-top-right-radius: 15px;  
+    border-top-left-radius: 15px;
+    z-index: 1;
+    box-shadow: ( 5px 5px 5px 5px rgb(31, 30, 30));
+    
 }
 
 
@@ -50,13 +53,46 @@ a:hover{
 
 .titulo{
     margin-top: 20px;
-    margin-left: 35px;
+    margin-left: 46px;
     color: #134F88;
     text-transform: uppercase;
 }
 
 .subtitulo{
-    margin-left: 35px;
+    margin-left: 46px;
     color: #6AA7C9;
     text-transform: uppercase;
+    
 }
+
+input{
+  width: 30%;
+  padding: 0.40em;
+  border-radius: 10px;
+  border: 1px solid rgba(105, 103, 103, 0.212);
+  float: right;
+  margin-right: 5em;
+  margin-top: -3em;
+  
+}
+
+span{
+    float: right;
+    margin-top: -1.60em;
+    margin-right: 3em;
+    
+}
+
+.conteudo__principal{
+    max-width: 70%;
+    height: 800px;
+    margin-left: 209.99px;
+    text-align: center;
+    position: relative; 
+    margin-top: 5em;
+    background-color: #ffffffa2;
+    box-shadow: ( 5px 5px 5px 5px rgb(31, 30, 30));
+    
+    
+}
+
