@@ -10,15 +10,22 @@ body{
  
 }
 
-header{
+.cima{
     width: 100vw;
     height: 150px;
     background-color: #075192;
 }
 
+header{
+    height: 14em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #e9ecec73;
+}
+
 .container{
     max-width: 69%;
-    height: 200px;
+    height: 700px;
     top: 40%;
     margin: auto;
     position: relative;
@@ -40,14 +47,14 @@ header{
 
 }
 
- a{
+ nav > .menu__op{
     color: aliceblue;
     padding: 15px;
     border-left: 1px solid rgba(255, 255, 255, 0.301);
     border-right: 1px solid rgba(255, 255, 255, 0.301); ;
 }
 
-a:hover{
+nav > .menu__op:hover{
     background-color: #ecf1f54b;
 }
 
@@ -76,7 +83,7 @@ input{
   
 }
 
-span{
+ #pesquisa_icon{
     float: right;
     margin-top: -1.60em;
     margin-right: 3em;
@@ -96,3 +103,29 @@ span{
     
 }
 
+.lateral {
+    display: block;
+    width: 25%;
+    height: 320px;
+    margin-top: 2em;
+    margin-left: 2em;
+    background-color: #1094D3;
+    border-bottom-right-radius: 20px;
+   
+}
+
+
+ .lateral__menu{
+    text-align: center;
+    text-decoration: none;
+    padding: 3em;
+    color: #ECF1F5;
+    font-family: 'Kdam Thmor Pro';
+  
+}
+
+ #seta{
+    margin-right: 1em;
+    margin-top: -18em;
+    color: #ECF1F5;
+}
